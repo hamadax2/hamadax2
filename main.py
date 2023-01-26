@@ -97,7 +97,7 @@ elif chose1 == 3:
     os.system("clear")
     print(ipinfo)
     try:
-        ip = input("Enter The IP/URL ::")
+        ip = input("Enter The Site URL :: ")
         req = requests.get("https://"+ip)
         print("\n"+str(req.headers))
         gethostby = socket.gethostbyname(ip)
