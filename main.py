@@ -24,7 +24,7 @@ m = """
 THE MENU 
 [1] Change host to ip tool
 [2] Subdomain Finder
-[3] IP Info                                 
+[3] Site Info                                 
 """
 os.system("clear")
 print(f)
